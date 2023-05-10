@@ -23,12 +23,12 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && npm run lint",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "lint": "eslint src/**/*.js",
+    "lint": "eslint --fix --ext .js,.jsx .",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
