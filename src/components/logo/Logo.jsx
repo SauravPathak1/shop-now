@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
-import logo from '../../assets/logo_updated.png';
+import logo from '../../assets/toshi.png';
 import './logo.css';
 
 const Logo = () => {
