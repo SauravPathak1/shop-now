@@ -1,8 +1,8 @@
-import React from 'react';
+import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
 
 const Profile = () => {
   return (
-    <div>Profile</div>
+    <div><PersonOutlineOutlinedIcon/></div>
   );
 };
 
