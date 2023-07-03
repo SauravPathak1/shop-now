@@ -5,7 +5,7 @@ import './logo.css';
 
 const Logo = () => {
   return (
-    <a href='/' className='navbar-brand'>
+    <a href='/shop-now' className='navbar-brand'>
       <img src={logo} className='brand-image' alt='shop-now logo'/>
     </a>
   );

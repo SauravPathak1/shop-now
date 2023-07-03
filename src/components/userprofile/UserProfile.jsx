@@ -10,10 +10,10 @@ const UserProfile = () => {
         <PersonOutlineOutlinedIcon fontSize='large'/>
       </button>
       <div className="dropdown-content">
-        <a href="/login">Login / Sign In</a>
+        <a href="/shop-now/login">Login / Sign In</a>
         <Divider sx={{ my: 0.5, bgcolor: 'black' }} />
-        <a href="/orders">Your Orders</a>
-        <a href="/profile">Profile</a>
+        <a href="/shop-now/orders">Your Orders</a>
+        <a href="/shop-now/profile">Profile</a>
       </div>
     </div>
   );
